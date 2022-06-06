@@ -7,11 +7,6 @@ function decrement() {
       if (currentNumber < 0) {
          currentNumberWrapper.style.color="red"
     }
-/*    
-    while (currentNumber <0) {
-        currentNumberWrapper.style.color="red"
-    }
-    */
 }
 
 function increment() {
@@ -21,8 +16,4 @@ function increment() {
          currentNumberWrapper.style.color="black"
     }
 }
-
-    if (currentNumber > 0) {
-         currentNumberWrapper.style.color="red"
-    }
 
